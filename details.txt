@@ -1,0 +1,26 @@
+1. Run the project : nodemon
+
+2. Login will give response as below:
+    "user": {
+            "_id": "659687fdddb423d9c1360f3f",
+            "name": "mursheed",
+            "email": "mursheed@test.com",
+            "__v": 0
+        },
+        "auth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjY1OTY4N2ZkZGRiNDIzZDljMTM2MGYzZiIsIm5hbWUiOiJtdXJzaGVlZCIsImVtYWlsIjoibXVyc2hlZWRAdGVzdC5jb20iLCJfX3YiOjB9LCJpYXQiOjE3MDQ3MTEwNTUsImV4cCI6MTcwNDcxODI1NX0.R2mIKVXjFnPGZqcAfVIi0wBBUSlwGTDNb3Cmj2IJ-tQ"
+        }
+
+3. Signup will give response as below:
+    "result": {
+            "name": "mark",
+            "email": "test.com",
+            "_id": "659bd4845b8677b1cbd96b02",
+            "__v": 0
+        },
+        "auth": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsibmFtZSI6Im1hcmsiLCJlbWFpbCI6InRlc3QuY29tIiwiX2lkIjoiNjU5YmQ0ODQ1Yjg2NzdiMWNiZDk2YjAyIiwiX192IjowfSwiaWF0IjoxNzA0NzExMzAwLCJleHAiOjE3MDQ3MTg1MDB9.X5LlfNJIEEct2qqnSVpmuUPnQl2YapQoQLzrZq5A48w"
+        }
+4.  Send bearer token from POSTMAN like :
+    Key : Authorization , value : <bearer Token>
+    Notedown that "A" is capital and there is a space between bearer and token
+    whereas in code key has small "a" in key(authorization)
+  
